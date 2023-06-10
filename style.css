@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0px;
+    height: 100vh;
+    width: 100%;
+    background-color: #F0F2F5;
+    font-family: 'Inter', sans-serif;
+}
+.h1{
+    font-size: 60px;
+    color: white;
+}
+.p2{
+    font-size: 25px;
+}
+button{
+    font-size: 20px;
+}
+.p1{
+    color:#1877F2;
+    font-size: 13px;
+}
+.b1{
+    background-color: #42B72A;
+    font-size: 14px;
+}
+hr{
+    align-self: stretch;
+    margin-bottom: 30px;
+}
+.form-control::placeholder { 
+    color: #9B8A8A;
+}
+@media screen and (max-width: 820px){
+    .p2{
+        font-size: 20px;
+    }
+}
